@@ -1,0 +1,22 @@
+[project]
+name = "ipas-framework"
+version = "0.1.0"
+description = "Generic invoice processing framework: ingestion, extraction, matching, rules DSL, approval workflow, ERP adapter interface."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.6",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["ipas_framework*"]
