@@ -4,7 +4,7 @@ Generic, ERP-agnostic invoice processing framework: ingestion, extraction,
 matching, configurable rules, approval workflow, and an ERP adapter interface.
 
 This repo holds only generic logic — no client data, no client-specific
-configuration, no tuned business rules. Client solutions (e.g. an Oracle EBS
+configuration, and no tuned business rules. Client solutions (e.g. an Oracle EBS
 integration for a specific EPC company) depend on this package and layer
 their own entity configs, tax rules, and ERP adapters on top of it. Code
 flows from framework to solution, never back.
