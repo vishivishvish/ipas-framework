@@ -34,7 +34,7 @@ flows from framework to solution, never back.
 ## Status
 
 Scaffold stage. `ERPAdapter` and the domain models are stable enough to build
-against; ingestion, extraction, matching, rules and approval are stubs with
+against; ingestion, extraction, matching, rules, and approval are stubs with
 defined interfaces, filled in sprint by sprint.
 
 ## Development
