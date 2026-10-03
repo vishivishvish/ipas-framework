@@ -43,3 +43,5 @@ defined interfaces, filled in sprint by sprint.
 pip install -e ".[dev]"
 pytest
 ```
+
+<!-- readme-grammar-pass: 2026-10-03 -->
