@@ -22,7 +22,7 @@ flows from framework to solution, never back.
   guarantee validation. Every mismatch produces a reason (`ExceptionRecord`),
   never a bare rejection.
 - `ipas_framework/rules/` — declarative, per-entity business rules and
-  tolerances, so a multi-entity rollout doesn't require a code change per
+  tolerances, so a multi-entity rollout does not require a code change per
   entity.
 - `ipas_framework/approval/` — approval workflow as an explicit state
   machine, with notification delivered through a pluggable channel.
