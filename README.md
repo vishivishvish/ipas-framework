@@ -44,4 +44,4 @@ pip install -e ".[dev]"
 pytest
 ```
 
-<!-- readme-grammar-pass: 2026-11-11 -->
+<!-- readme-grammar-pass: 2026-11-20 -->
